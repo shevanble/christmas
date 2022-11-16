@@ -59,3 +59,25 @@ footer p{
 .footer-link{
     color: white;
 }
+
+@media (min-width:320px) and (max-width: 767px) {
+    .countdown-container {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+    header h1{
+        margin: 0;
+        font-size: 3rem;
+        padding: 40px 0 0 0;
+    }
+
+    .big-text{
+        font-size: 2rem;
+    }
+
+    footer{
+        padding: 40px;
+    }
+}
