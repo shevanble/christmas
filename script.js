@@ -1,5 +1,5 @@
 // ending date
-const newYears = "1 Jan 2023";
+const newYears = "20 Jan 2025";
 
 // current date
 function countdown(){
